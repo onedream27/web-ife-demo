@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/*通用*/
+.com {
+  border: 1px solid #999;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.container {
+  margin: 10px;
+  height: 430px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.team_left_box {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+}
+
+.team_left_box span {
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: #eee;
+}
+
+.team_center {
+  width: auto;
+  margin: 0 10px;
+  background-color: white;
+  padding: 10px 20px;
+  line-height: 30px;
+}
+
+.team_center span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.team_center p {
+  margin-left: 20px;
+}
+
+.team_right {
+  width: 120px;
+  background-color: white;
+}
+
+.team_right ul {
+  margin: 19px;
+  width: 80px;
+  display: block;
+  text-align: center;
+}
+
+.team_right ul li {
+  display: block;
+  width: 80px;
+  margin-bottom: 10px;
+}
+

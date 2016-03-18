@@ -1,0 +1,169 @@
+@charset "UTF-8";
+body {
+  background-color: #dedede;
+
+}
+
+/*头部*/
+
+.nav {
+  background-color: #333;
+  width: 100%;
+  height: 60px;
+}
+
+.navbox {
+  padding: 10px 0;
+}
+
+.logo {
+  width: 124px;
+  height: 40px;
+}
+
+.right li {
+  float: left;
+  margin-right: 20px;
+  padding: 10px 0;
+}
+
+.right li a {
+  color: white;
+  font-size: 16px;
+}
+
+.right li a:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+
+.right ul li .active {
+  color: #666;
+}
+
+/*内容区域*/
+.box {
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px #666;
+}
+
+.box h1,
+.box h3,
+.box h5 {
+  margin: 10px 0;
+}
+
+.box p {
+  text-indent: 25px;
+}
+
+.box a {
+  color: red;
+
+}
+
+.box ul li {
+  list-style: none;
+  width: 550px;
+}
+
+.img_box {
+  border: 3px solid #8c8c8c;
+  padding: 10px;
+  width: 550px;
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.img_box h4 {
+  padding: 20px 0;
+}
+
+.list {
+  padding-left: 50px;
+}
+
+.table_box {
+  width: 50%;
+  border: 1px solid #8c8c8c;
+
+}
+
+.head {
+  background-color: black;
+  color: white;
+}
+
+.head td {
+  border: 1px solid #ccc;
+  text-indent: 5px;
+}
+
+.tbody tr td {
+  border: 1px solid #ccc;
+
+}
+
+.tbody .account {
+  background-color: #dedede;
+}
+
+.box h2 .block {
+  width: 3px;
+  height: 31px;
+  background-color: black;
+}
+
+.box .title {
+  border-left: 5px solid #ccc;
+  padding: 10px;
+}
+
+.item {
+  margin: 15px 0;
+}
+
+.left_label {
+  width: 30%;
+  text-align: right;
+  display: inline-block;
+  float: left;
+}
+
+.item_input {
+  display: inline-block;
+}
+
+.item_input p {
+  text-indent: 0;
+  color: #ddd;
+  margin: 5px 0;
+}
+
+.submit_btn {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #3355d0;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+.footer {
+  padding: 20px 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer p {
+  text-align: center;
+}
